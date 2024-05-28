@@ -9,6 +9,7 @@ async function status(request, response) {
   const databaseMaxConnectionResult = await database.query(
     "SHOW max_connections;",
   );
+
   const databaseMaxConnectionsValue =
     databaseMaxConnectionResult.rows[0].max_connections;
 
