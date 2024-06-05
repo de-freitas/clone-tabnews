@@ -30,6 +30,7 @@ async function status(request, response) {
         opened_connections: databaseOpenedConnectionsValue,
       },
     },
+    matui_academy: "visite: matuiacademy.com.br",
   });
 }
 
