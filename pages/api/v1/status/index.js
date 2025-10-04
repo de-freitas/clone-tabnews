@@ -27,7 +27,7 @@ export default async function status(request, response) {
         version: databaseVersionValue,
         max_connections: parseInt(databaseMaxConnectionsValue),
         opened_connections: databaseOpenedConnectionsValue,
-      }
+      },
     },
   });
 }
